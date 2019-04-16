@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+ background-color: #bbb;
+ 
+}
+ /* Use case Tabs */
+ .column1 {
+  float: left;
+  width: 15%;
+  padding: 100px;
+  height: 600px; /* Should be removed. Only for demonstration */
+  }
+  
+  .column-2 {
+  float: left;
+  width: 55%;
+  padding: 100px;
+  height: 100px; /* Should be removed. Only for demonstration */
+  }
+  .column-3{
+  float: right;
+  width: 55%;
+  padding: 100px;
+  height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ /* buttons for different use cases*/ 
+  .button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+  
+}
+</style>
+<div class="row">
+	<div class="column1" style="background-color:#aaa;">
+		<a href="WB2-UC1.html"><button class="button" style="margin:30px;" >Use Case 1</button></br>
+		<a href="WB2-UC2.html"><button class="button" style="margin:30px;" >Use Case 2</button></br>
+		<a href="WB2-UC3.html"><button class="button" style="margin:30px;" >Use Case 3</button></br>
+	</div>
+	<div class="column-2"  style="background-color:#bbb;">
+		<h1 align="center"> Use Case 1</h1>
+		<p align="center"> Description of Use Case 1</p>
+	</div>
+	<div class="column-3"  style="background-color:#bbb;">
+	<center>
+
+	
+	
+	
+	
+	<a href="portal.html"><button class="button" style="margin:30px;">Proceed</button></br>
+	<script>
+	
+      var value1="uc1.htm";
+      var queryString = "?para1=" + value1;
+      window.location.href = "portal.html" + queryString;
+
+    </script>
+	
+	<center>
+	</div>
+</div>
+ </HTML>
